@@ -140,7 +140,7 @@ public class cadastroVIEW extends javax.swing.JFrame {
         cadastroNome.setText("");
         cadastroValor.setText("");
 
-        JOptionPane.showMessageDialog(this, "Produto cadastrado com sucesso!", "Sucesso", JOptionPane.INFORMATION_MESSAGE);
+        
 
     }//GEN-LAST:event_btnCadastrarActionPerformed
 
