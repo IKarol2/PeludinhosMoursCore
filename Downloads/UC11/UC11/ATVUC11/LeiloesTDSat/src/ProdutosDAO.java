@@ -38,7 +38,7 @@ public class ProdutosDAO {
 
         }
     }
-    /*
+    
     public ArrayList<ProdutosDTO> listarProdutos() {
          ArrayList<ProdutosDTO> listagem = new ArrayList<>();
         String sql = "SELECT id, nome, valor, status FROM produtos";
@@ -62,6 +62,6 @@ public class ProdutosDAO {
         
 
         return listagem;
-   }*/
+   }
 
 }
