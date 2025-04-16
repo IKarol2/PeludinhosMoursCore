@@ -32,9 +32,10 @@ public class ProdutosDAO {
             stmt.setInt(2, produto.getValor());
             stmt.setString(3, produto.getStatus());
             stmt.executeUpdate();
-            
+            JOptionPane.showMessageDialog(null,"Salvo com sucesso");
+          
         } catch (SQLException e) {
-            e.printStackTrace();
+            JOptionPane.showMessageDialog(null,"Erro ao salvar");
 
         }
     }
